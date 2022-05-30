@@ -53,7 +53,6 @@ const makeSessions = (timestamps, urlMap) => {
             start = i
         }
     }
-    console.dir(sessions, {depth: null})
     return sessions
 }
 
